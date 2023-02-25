@@ -1,0 +1,22 @@
+PODS:
+  - ActiveLookSDK (4.3.0)
+
+DEPENDENCIES:
+  - ActiveLookSDK (from `https://github.com/ActiveLook/ios-sdk.git`, tag `v4.3.0`)
+
+EXTERNAL SOURCES:
+  ActiveLookSDK:
+    :git: https://github.com/ActiveLook/ios-sdk.git
+    :tag: v4.3.0
+
+CHECKOUT OPTIONS:
+  ActiveLookSDK:
+    :git: https://github.com/ActiveLook/ios-sdk.git
+    :tag: v4.3.0
+
+SPEC CHECKSUMS:
+  ActiveLookSDK: be44ac550ba7e9ddacd2ccc837a020ca5e3ca3c8
+
+PODFILE CHECKSUM: 28ff79ad827c36f7bf25e69096fca2a26f8cc696
+
+COCOAPODS: 1.11.3

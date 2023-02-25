@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ActiveLook/ios-sdk.git",
+      "state" : {
+        "revision" : "1d132330b4768933aa6930d92e752e1b4c4b8cc6",
+        "version" : "4.4.0"
+      }
+    },
+    {
+      "identity" : "swiftuipolygongeofence",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zpg6/SwiftUIPolygonGeofence",
+      "state" : {
+        "revision" : "308ee9d47c26739c4daaebf4209ea2563f09daf8",
+        "version" : "1.1.2"
+      }
+    }
+  ],
+  "version" : 2
+}
