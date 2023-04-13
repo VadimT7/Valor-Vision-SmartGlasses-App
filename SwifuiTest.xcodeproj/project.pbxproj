@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565B8F9C38D0F9C85E5B53EC /* EntityInfo-SwifuiTest.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BC55992DB5C6FA103661A /* EntityInfo-SwifuiTest.generated.swift */; };
 		67F2C072757F10B84C903FA0 /* Pods_SwifuiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE995D829312E5F65AA80B1C /* Pods_SwifuiTest.framework */; };
 		921E8E3F296DB9C600827058 /* ActiveLookSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 921E8E3E296DB9C600827058 /* ActiveLookSDK */; };
+		926EB73829D9495700D5A20F /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 926EB73729D9495700D5A20F /* LICENCE */; };
+		926EB73A29DBA74700D5A20F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EB73929DBA74700D5A20F /* User.swift */; };
+		926EB73C29DCA98400D5A20F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926EB73B29DCA98400D5A20F /* LaunchView.swift */; };
 		92801B442961091F00CD5441 /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92801B432961091F00CD5441 /* CompassHeading.swift */; };
 		92906C7D296DDF8B0065FF5E /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92906C7C296DDF8B0065FF5E /* Connections.swift */; };
 		92CBF15A295D3747005CF6A4 /* SwifuiTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBF159295D3747005CF6A4 /* SwifuiTestApp.swift */; };
@@ -21,8 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1BC55992DB5C6FA103661A /* EntityInfo-SwifuiTest.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EntityInfo-SwifuiTest.generated.swift"; sourceTree = "<group>"; };
 		68363B07E0B3551487410048 /* Pods-SwifuiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifuiTest.release.xcconfig"; path = "Target Support Files/Pods-SwifuiTest/Pods-SwifuiTest.release.xcconfig"; sourceTree = "<group>"; };
 		7735B1BECD21BAE2F9E6EA19 /* Pods-SwifuiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifuiTest.debug.xcconfig"; path = "Target Support Files/Pods-SwifuiTest/Pods-SwifuiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		926EB73729D9495700D5A20F /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		926EB73929DBA74700D5A20F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		926EB73B29DCA98400D5A20F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		92801B432961091F00CD5441 /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
 		92906C7B296DDF240065FF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		92906C7C296DDF8B0065FF5E /* Connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
@@ -56,9 +64,11 @@
 		92CBF14D295D3747005CF6A4 = {
 			isa = PBXGroup;
 			children = (
+				926EB73729D9495700D5A20F /* LICENCE */,
 				92CBF158295D3747005CF6A4 /* SwifuiTest */,
 				92CBF169295D374A005CF6A4 /* SwifuiTestTests */,
 				92CBF173295D374A005CF6A4 /* SwifuiTestUITests */,
+				A8DE690196474014E1006944 /* generated */,
 				92CBF157295D3747005CF6A4 /* Products */,
 				9CFEB0955425375A535D5E9B /* Pods */,
 				BF0F0D7C1B6044532EDA7657 /* Frameworks */,
@@ -85,6 +95,8 @@
 				92CBF15D295D374A005CF6A4 /* Assets.xcassets */,
 				92CBF15F295D374A005CF6A4 /* Preview Content */,
 				92906C7C296DDF8B0065FF5E /* Connections.swift */,
+				926EB73929DBA74700D5A20F /* User.swift */,
+				926EB73B29DCA98400D5A20F /* LaunchView.swift */,
 			);
 			path = SwifuiTest;
 			sourceTree = "<group>";
@@ -123,6 +135,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A8DE690196474014E1006944 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				1F1BC55992DB5C6FA103661A /* EntityInfo-SwifuiTest.generated.swift */,
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
 		BF0F0D7C1B6044532EDA7657 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +159,7 @@
 			buildConfigurationList = 92CBF17A295D374A005CF6A4 /* Build configuration list for PBXNativeTarget "SwifuiTest" */;
 			buildPhases = (
 				4B63C30529966E4906F359CE /* [CP] Check Pods Manifest.lock */,
+				5F14F5B398E0075C06CAB3A5 /* [OBX] Update Sourcery Generated Files */,
 				92CBF152295D3747005CF6A4 /* Sources */,
 				92CBF153295D3747005CF6A4 /* Frameworks */,
 				92CBF154295D3747005CF6A4 /* Resources */,
@@ -199,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926EB73829D9495700D5A20F /* LICENCE in Resources */,
 				92CBF161295D374A005CF6A4 /* Preview Assets.xcassets in Resources */,
 				92CBF15E295D374A005CF6A4 /* Assets.xcassets in Resources */,
 			);
@@ -246,6 +268,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwifuiTest/Pods-SwifuiTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5F14F5B398E0075C06CAB3A5 /* [OBX] Update Sourcery Generated Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[OBX] Update Sourcery Generated Files";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/ObjectBox/generate_sources.sh\" -- --output \"$PROJECT_DIR/generated/EntityInfo-SwifuiTest.generated.swift\" --model-json \"$PROJECT_DIR/model-SwifuiTest.json\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +297,11 @@
 				92906C7D296DDF8B0065FF5E /* Connections.swift in Sources */,
 				92CBF15C295D3747005CF6A4 /* ContentView.swift in Sources */,
 				92CBF184295D420F005CF6A4 /* Location.swift in Sources */,
+				926EB73A29DBA74700D5A20F /* User.swift in Sources */,
 				92CBF1AB2960F294005CF6A4 /* EditView.swift in Sources */,
 				92CBF15A295D3747005CF6A4 /* SwifuiTestApp.swift in Sources */,
+				926EB73C29DCA98400D5A20F /* LaunchView.swift in Sources */,
+				565B8F9C38D0F9C85E5B53EC /* EntityInfo-SwifuiTest.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +436,9 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwifuiTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Valor Vision";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow To Track Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -428,7 +473,9 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwifuiTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Valor Vision";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow To Track Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

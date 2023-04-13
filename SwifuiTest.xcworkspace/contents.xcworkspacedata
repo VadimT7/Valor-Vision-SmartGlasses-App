@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LICENCE">
+   </FileRef>
+   <FileRef
       location = "group:SwifuiTest.xcodeproj">
    </FileRef>
    <FileRef

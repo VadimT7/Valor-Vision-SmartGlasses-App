@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SwifuiTest/Pods-SwifuiTest-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/ActiveLookSDK/ActiveLookSDK.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ObjectBox/ObjectBox.framework/ObjectBox
