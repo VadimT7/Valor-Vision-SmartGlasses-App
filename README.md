@@ -2,7 +2,8 @@
 
 This is a software designed for Police Departments to use that will be able to connect with activewear glasses. This app makes use of the ActiveLook SDK and will be used on IOS platforms 16.2 or above to run with ENGO smart-glasses. 
 
-For Full Documentation of the application, consult the document called located inside the present repository.
+For Full Documentation of the application, consult the final documentation at this link:
+https://github.com/VadimT7/Valor-Vision-SmartGlasses-App/blob/main/Capstone_Final_Report_DP11.pdf.
 
 All Features:
   - Track officers
